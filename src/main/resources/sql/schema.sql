@@ -1,7 +1,7 @@
 create table users (
    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-   username varchar(255) not null UNIQUE,
-   PASSWORD varchar(255) NOT NULL,
+   username varchar(255) NOT NULL UNIQUE,
+   password varchar(255) NOT NULL,
    enabled BOOLEAN DEFAULT TRUE
 );
 
